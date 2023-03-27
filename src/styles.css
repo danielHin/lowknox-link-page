@@ -5,6 +5,10 @@ html {
     font-family: "Tahoma", sans-serif;
     font-size: 1em;
     background: #000000;
+    background: linear-gradient(to bottom right, rgba(0,0,0,1) 0%, rgb(40, 40, 40) 100%);
+    background: -webkit-linear-gradient(to bottom right, rgba(0,0,0,1) 0%, rgb(40, 40, 40) 100%);
+    background: -moz-linear-gradient(to bottom right, rgba(0,0,0,1) 0%, rgb(40, 40, 40) 100%);
+    background-attachment: fixed;
 }
 
 header {
