@@ -41,6 +41,7 @@ ul > li {
     border-radius: 1em;
     padding: 1em;
     margin: 1.4em 0;
+    transition: transform 300ms ease-out;
 }
 
 ul > li > a {
