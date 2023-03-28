@@ -4,7 +4,7 @@
 - [ ] Imprint
 - [ ] GDPR
 - [ ] Favicon
-- [ ] Button hover animation
+- [x] Button hover animation
 - [ ] add section for dates/concerts
 - [ ] check if link is missing
 - [ ] Review styles
