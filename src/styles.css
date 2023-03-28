@@ -38,7 +38,7 @@ ul {
 
 ul > li {
     background-color: #fff;
-    border-radius: 10em;
+    border-radius: 1em;
     padding: 1em;
     margin: 1.4em 0;
 }
@@ -54,4 +54,8 @@ ul > li > a {
 a {
     text-decoration: none;
     color: #000000;
+}
+
+li:hover {
+    transform: scale(1.1);
 }
