@@ -2,7 +2,7 @@
 
 ## Todos
 - [ ] Imprint
-- [ ] GDPR
+- [x] GDPR
 - [ ] Favicon
 - [x] Button hover animation
 - [x] add section for dates/concerts
