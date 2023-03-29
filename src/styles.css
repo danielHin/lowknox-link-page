@@ -60,7 +60,6 @@ ul {
 ul > li {
     background-color: #fff;
     border-radius: 1em;
-    padding: 1em;
     margin: 1.4em 0;
     transition: transform 300ms ease-out;
 }
@@ -71,6 +70,7 @@ ul > li > a {
     justify-content: center;
     align-items: center;
     gap: 0.5em;
+    padding: 1em;
 }
 
 a {
