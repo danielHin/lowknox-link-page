@@ -1,4 +1,7 @@
 # Lowknox Link Page
+Very basic link page for linking in social media bio. 
+
+No frameworks, no cookies, no cdn, no trackers, no analytics.  
 
 ## Todos
 - [ ] Imprint
