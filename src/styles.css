@@ -1,5 +1,6 @@
 body,
 html {
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: "Tahoma", sans-serif;
@@ -8,13 +9,15 @@ html {
     background: linear-gradient(to bottom right, rgba(0,0,0,1) 0%, rgb(40, 40, 40) 100%);
     background: -webkit-linear-gradient(to bottom right, rgba(0,0,0,1) 0%, rgb(40, 40, 40) 100%);
     background: -moz-linear-gradient(to bottom right, rgba(0,0,0,1) 0%, rgb(40, 40, 40) 100%);
-    background-attachment: fixed;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    margin-top: 1em;
-    margin-right: 1em;
-    margin-left: 1em;
+    padding-top: 1em;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -28,22 +31,19 @@ header > img {
     filter: invert(100%);
 }
 
+.main-content {
+  flex: 1 0 auto;
+}
+
 .dates-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #ffffff;
 }
 
-.dates-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.dates-content > p {
+.dates-container > p {
     margin: 0;
     margin-top: 1em;
     padding: 0;
@@ -84,6 +84,10 @@ li:hover {
 
 i {
     font-size: 1.3em;
+}
+
+.footer {
+  flex-shrink: 0;
 }
 
 .footer-container {
