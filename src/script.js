@@ -1,7 +1,5 @@
 const imprintModal = document.getElementById('imprintModal');
-
-var link = document.getElementById('imprint');
-var span = document.getElementsByClassName('close')[0];
+const link = document.getElementById('imprint');
 
 link.onclick = function () {
     imprintModal.style.display = "flex";
