@@ -164,6 +164,6 @@ i {
   color: #ffffff
 }
 
-h3 > a, h4 > a {
+p > a, h3 > a, h4 > a {
   color: rgb(173, 173, 173)
 }
