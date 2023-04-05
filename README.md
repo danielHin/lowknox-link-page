@@ -11,4 +11,4 @@ No frameworks, no cookies, no cdn, no trackers, no analytics.
 - [x] add section for dates/concerts
 - [x] check if link is missing
 - [x] Review styles
-- [ ] deploy (links.lowknox.de or lowknox.de)
+- [x] deploy (links.lowknox.de or lowknox.de)
