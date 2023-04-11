@@ -25,7 +25,7 @@ header {
   align-items: center;
 }
 
-header>img {
+header > img {
   display: block;
   width: 95%;
   max-width: 600px;
@@ -51,8 +51,8 @@ header>img {
   align-items: center;
 }
 
-.dates-list>p,
-.dates-list>a {
+.dates-list > p,
+.dates-list > a {
   color: #ffffff;
   margin: 0;
   margin-top: 1em;
@@ -71,14 +71,14 @@ ul {
   max-width: 480px;
 }
 
-ul>li {
+ul > li {
   background-color: #fff;
   border-radius: 1em;
   margin: 1.4em 0;
   transition: transform 300ms ease-out;
 }
 
-ul>li>a {
+ul > li > a {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -110,7 +110,7 @@ i {
   padding-bottom: 1em;
 }
 
-.footer-container>a {
+.footer-container > a {
   font-size: 0.8em;
   margin-left: 2em;
   color: #ffffff;
@@ -139,8 +139,6 @@ i {
   }
 }
 
-
-
 .modal {
   display: none;
   flex-direction: row;
@@ -167,7 +165,7 @@ i {
   color: #ffffff;
 }
 
-.modal-content>iframe {
+.modal-content > iframe {
   height: 100%;
   width: 100%;
 }
@@ -177,8 +175,8 @@ i {
   color: #ffffff
 }
 
-p>a,
-h3>a,
-h4>a {
+p > a,
+h3 > a,
+h4 > a {
   color: rgb(173, 173, 173)
 }
