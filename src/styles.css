@@ -44,10 +44,23 @@ header>img {
   color: #ffffff;
 }
 
-.dates-container>p {
+.dates-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dates-list>p,
+.dates-list>a {
+  color: #ffffff;
   margin: 0;
   margin-top: 1em;
   padding: 0;
+}
+
+.dates-list > :first-child {
+  margin-top: 0;
 }
 
 ul {
@@ -164,6 +177,8 @@ i {
   color: #ffffff
 }
 
-p > a, h3 > a, h4 > a {
+p>a,
+h3>a,
+h4>a {
   color: rgb(173, 173, 173)
 }
